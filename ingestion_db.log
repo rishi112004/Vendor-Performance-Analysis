@@ -1,0 +1,235 @@
+2025-08-11 16:41:20,420-INFO-Ingestingbegin_inventory.csvin db
+2025-08-11 16:41:23,470-INFO-Ingestingend_inventory.csvin db
+2025-08-11 16:41:31,651-INFO-Ingestingpurchases.csvin db
+2025-08-11 16:42:32,003-INFO-Ingestingpurchase_prices.csvin db
+2025-08-11 16:43:02,911-INFO-Ingestingsales.csvin db
+2025-08-11 16:44:52,452-INFO-Ingestingbegin_inventory.csvin db
+2025-08-11 16:44:55,895-INFO-Ingestingend_inventory.csvin db
+2025-08-11 16:45:04,325-INFO-Ingestingpurchases.csvin db
+2025-08-11 16:46:17,270-INFO-Ingestingpurchase_prices.csvin db
+2025-08-11 16:46:52,875-INFO-Ingestingsales.csvin db
+2025-08-11 17:00:44,608-INFO-Ingestingvendor_invoice.csvin db
+2025-08-11 17:00:44,850-INFO----------Ingestion Complete---------
+2025-08-11 17:13:06,397-INFO-Ingestingbegin_inventory.csvin db
+2025-08-11 17:13:10,866-INFO-Ingestingend_inventory.csvin db
+2025-08-11 17:13:21,567-INFO-Ingestingpurchases.csvin db
+2025-08-11 17:14:47,018-INFO-Ingestingpurchase_prices.csvin db
+2025-08-11 17:15:27,178-INFO-Ingestingsales.csvin db
+2025-08-11 17:29:45,077-INFO-Ingestingvendor_invoice.csvin db
+2025-08-11 17:29:45,342-INFO----------Ingestion Complete---------
+2025-08-11 17:39:07,116-INFO-Ingesting begin_inventory.csv in db
+2025-08-11 17:39:10,526-INFO-Ingesting end_inventory.csv in db
+2025-08-11 17:39:19,199-INFO-Ingesting purchases.csv in db
+2025-08-11 17:40:28,270-INFO-Ingesting purchase_prices.csv in db
+2025-08-11 17:40:58,810-INFO-Ingesting sales.csv in db
+2025-08-11 17:54:08,235-INFO-Ingesting vendor_invoice.csv in db
+2025-08-11 17:54:08,485-INFO----------Ingestion Complete---------
+2025-08-11 17:54:08,485-INFO-
+Total_time: 15.031146184603374 minutes
+2025-08-13 00:57:39,405-INFO-Creating Vendor Summary Table.....
+2025-08-13 00:59:09,247-INFO-Creating Vendor Summary Table.....
+2025-08-13 00:59:14,060-INFO-Creating Vendor Summary Table.....
+2025-08-13 01:03:59,883-INFO-Creating Vendor Summary Table.....
+2025-08-13 01:05:20,447-INFO-   VendorNumber                   VendorName  Brand  PurchasePrice  \
+0          1128  BROWN-FORMAN CORP             1233          26.27   
+1          4425        MARTIGNETTI COMPANIES   3405          23.19   
+2         17035  PERNOD RICARD USA             8068          18.24   
+3          3960  DIAGEO NORTH AMERICA INC      4261          16.17   
+4          3960  DIAGEO NORTH AMERICA INC      3545          21.89   
+
+   ActualPrice Volume  TotalPurchaseQuantity  TotalPurchaseDollars  \
+0        36.99   1750                 145080            3811251.60   
+1        28.99   1750                 164038            3804041.22   
+2        24.99   1750                 187407            3418303.68   
+3        22.99   1750                 201682            3261197.94   
+4        29.99   1750                 138109            3023206.01   
+
+   TotalSalesQuantity  TotalSalesDollars  TotalSalesPrice  TotalExciseTax  \
+0            142049.0         5101919.51              0.0       260999.20   
+1            160247.0         4819073.49              0.0       294438.66   
+2            187140.0         4538120.60              0.0       343854.07   
+3            200412.0         4475972.88              0.0       368242.80   
+4            135838.0         4223107.62              0.0       249587.83   
+
+   FreightCost  
+0     68601.68  
+1    144929.24  
+2    123780.22  
+3    257032.07  
+4    257032.07  
+2025-08-13 01:05:20,455-INFO-Cleaning Data......
+2025-08-13 01:08:39,092-INFO-Creating Vendor Summary Table.....
+2025-08-13 01:09:55,649-INFO-   VendorNumber                   VendorName  Brand  PurchasePrice  \
+0          1128  BROWN-FORMAN CORP             1233          26.27   
+1          4425        MARTIGNETTI COMPANIES   3405          23.19   
+2         17035  PERNOD RICARD USA             8068          18.24   
+3          3960  DIAGEO NORTH AMERICA INC      4261          16.17   
+4          3960  DIAGEO NORTH AMERICA INC      3545          21.89   
+
+   ActualPrice Volume  TotalPurchaseQuantity  TotalPurchaseDollars  \
+0        36.99   1750                 145080            3811251.60   
+1        28.99   1750                 164038            3804041.22   
+2        24.99   1750                 187407            3418303.68   
+3        22.99   1750                 201682            3261197.94   
+4        29.99   1750                 138109            3023206.01   
+
+   TotalSalesQuantity  TotalSalesDollars  TotalSalesPrice  TotalExciseTax  \
+0            142049.0         5101919.51              0.0       260999.20   
+1            160247.0         4819073.49              0.0       294438.66   
+2            187140.0         4538120.60              0.0       343854.07   
+3            200412.0         4475972.88              0.0       368242.80   
+4            135838.0         4223107.62              0.0       249587.83   
+
+   FreightCost  
+0     68601.68  
+1    144929.24  
+2    123780.22  
+3    257032.07  
+4    257032.07  
+2025-08-13 01:09:55,663-INFO-Cleaning Data......
+2025-08-13 01:09:55,685-INFO-   VendorNumber                VendorName  Brand  PurchasePrice  ActualPrice  \
+0          1128         BROWN-FORMAN CORP   1233          26.27        36.99   
+1          4425     MARTIGNETTI COMPANIES   3405          23.19        28.99   
+2         17035         PERNOD RICARD USA   8068          18.24        24.99   
+3          3960  DIAGEO NORTH AMERICA INC   4261          16.17        22.99   
+4          3960  DIAGEO NORTH AMERICA INC   3545          21.89        29.99   
+
+   Volume  TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  \
+0  1750.0                 145080            3811251.60            142049.0   
+1  1750.0                 164038            3804041.22            160247.0   
+2  1750.0                 187407            3418303.68            187140.0   
+3  1750.0                 201682            3261197.94            200412.0   
+4  1750.0                 138109            3023206.01            135838.0   
+
+   TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost  \
+0         5101919.51              0.0       260999.20     68601.68   
+1         4819073.49              0.0       294438.66    144929.24   
+2         4538120.60              0.0       343854.07    123780.22   
+3         4475972.88              0.0       368242.80    257032.07   
+4         4223107.62              0.0       249587.83    257032.07   
+
+   GrossProfit  ProfitMargin  StockTurnover  SalesToPurchaseRatio  
+0   1290667.91     25.297693       0.979108              1.338647  
+1   1015032.27     21.062810       0.976890              1.266830  
+2   1119816.92     24.675786       0.998575              1.327594  
+3   1214774.94     27.139908       0.993703              1.372493  
+4   1199901.61     28.412764       0.983556              1.396897  
+2025-08-13 01:09:55,698-INFO-Ingesting data.....
+2025-08-13 01:09:55,884-INFO-Completed
+2025-08-13 03:14:17,808-INFO-Creating Vendor Summary Table.....
+2025-08-13 03:18:47,395-INFO-Creating Vendor Summary Table.....
+2025-08-13 03:20:07,146-INFO-   VendorNumber                   VendorName  Brand  PurchasePrice  \
+0          1128  BROWN-FORMAN CORP             1233          26.27   
+1          4425        MARTIGNETTI COMPANIES   3405          23.19   
+2         17035  PERNOD RICARD USA             8068          18.24   
+3          3960  DIAGEO NORTH AMERICA INC      4261          16.17   
+4          3960  DIAGEO NORTH AMERICA INC      3545          21.89   
+
+   ActualPrice Volume  TotalPurchaseQuantity  TotalPurchaseDollars  \
+0        36.99   1750                 145080            3811251.60   
+1        28.99   1750                 164038            3804041.22   
+2        24.99   1750                 187407            3418303.68   
+3        22.99   1750                 201682            3261197.94   
+4        29.99   1750                 138109            3023206.01   
+
+   TotalSalesQuantity  TotalSalesDollars  TotalSalesPrice  TotalExciseTax  \
+0            142049.0         5101919.51              0.0       260999.20   
+1            160247.0         4819073.49              0.0       294438.66   
+2            187140.0         4538120.60              0.0       343854.07   
+3            200412.0         4475972.88              0.0       368242.80   
+4            135838.0         4223107.62              0.0       249587.83   
+
+   FreightCost  
+0     68601.68  
+1    144929.24  
+2    123780.22  
+3    257032.07  
+4    257032.07  
+2025-08-13 03:20:07,162-INFO-Cleaning Data......
+2025-08-13 03:20:07,192-INFO-   VendorNumber                VendorName  Brand  PurchasePrice  ActualPrice  \
+0          1128         BROWN-FORMAN CORP   1233          26.27        36.99   
+1          4425     MARTIGNETTI COMPANIES   3405          23.19        28.99   
+2         17035         PERNOD RICARD USA   8068          18.24        24.99   
+3          3960  DIAGEO NORTH AMERICA INC   4261          16.17        22.99   
+4          3960  DIAGEO NORTH AMERICA INC   3545          21.89        29.99   
+
+   Volume  TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  \
+0  1750.0                 145080            3811251.60            142049.0   
+1  1750.0                 164038            3804041.22            160247.0   
+2  1750.0                 187407            3418303.68            187140.0   
+3  1750.0                 201682            3261197.94            200412.0   
+4  1750.0                 138109            3023206.01            135838.0   
+
+   TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost  \
+0         5101919.51              0.0       260999.20     68601.68   
+1         4819073.49              0.0       294438.66    144929.24   
+2         4538120.60              0.0       343854.07    123780.22   
+3         4475972.88              0.0       368242.80    257032.07   
+4         4223107.62              0.0       249587.83    257032.07   
+
+   GrossProfit  ProfitMargin  StockTurnover  SalesToPurchaseRatio  
+0   1290667.91     25.297693       0.979108              1.338647  
+1   1015032.27     21.062810       0.976890              1.266830  
+2   1119816.92     24.675786       0.998575              1.327594  
+3   1214774.94     27.139908       0.993703              1.372493  
+4   1199901.61     28.412764       0.983556              1.396897  
+2025-08-13 03:20:07,196-INFO-Ingesting data.....
+2025-08-13 03:20:07,327-INFO-Completed
+2025-08-13 17:57:14,501-INFO-Creating Vendor Summary Table.....
+2025-08-13 17:58:32,732-INFO-   VendorNumber                   VendorName  Brand  PurchasePrice  \
+0          1128  BROWN-FORMAN CORP             1233          26.27   
+1          4425        MARTIGNETTI COMPANIES   3405          23.19   
+2         17035  PERNOD RICARD USA             8068          18.24   
+3          3960  DIAGEO NORTH AMERICA INC      4261          16.17   
+4          3960  DIAGEO NORTH AMERICA INC      3545          21.89   
+
+   ActualPrice Volume  TotalPurchaseQuantity  TotalPurchaseDollars  \
+0        36.99   1750                 145080            3811251.60   
+1        28.99   1750                 164038            3804041.22   
+2        24.99   1750                 187407            3418303.68   
+3        22.99   1750                 201682            3261197.94   
+4        29.99   1750                 138109            3023206.01   
+
+   TotalSalesQuantity  TotalSalesDollars  TotalSalesPrice  TotalExciseTax  \
+0            142049.0         5101919.51              0.0       260999.20   
+1            160247.0         4819073.49              0.0       294438.66   
+2            187140.0         4538120.60              0.0       343854.07   
+3            200412.0         4475972.88              0.0       368242.80   
+4            135838.0         4223107.62              0.0       249587.83   
+
+   FreightCost  
+0     68601.68  
+1    144929.24  
+2    123780.22  
+3    257032.07  
+4    257032.07  
+2025-08-13 17:58:32,742-INFO-Cleaning Data......
+2025-08-13 17:58:32,754-INFO-   VendorNumber                VendorName  Brand  PurchasePrice  ActualPrice  \
+0          1128         BROWN-FORMAN CORP   1233          26.27        36.99   
+1          4425     MARTIGNETTI COMPANIES   3405          23.19        28.99   
+2         17035         PERNOD RICARD USA   8068          18.24        24.99   
+3          3960  DIAGEO NORTH AMERICA INC   4261          16.17        22.99   
+4          3960  DIAGEO NORTH AMERICA INC   3545          21.89        29.99   
+
+   Volume  TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  \
+0  1750.0                 145080            3811251.60            142049.0   
+1  1750.0                 164038            3804041.22            160247.0   
+2  1750.0                 187407            3418303.68            187140.0   
+3  1750.0                 201682            3261197.94            200412.0   
+4  1750.0                 138109            3023206.01            135838.0   
+
+   TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost  \
+0         5101919.51              0.0       260999.20     68601.68   
+1         4819073.49              0.0       294438.66    144929.24   
+2         4538120.60              0.0       343854.07    123780.22   
+3         4475972.88              0.0       368242.80    257032.07   
+4         4223107.62              0.0       249587.83    257032.07   
+
+   GrossProfit  ProfitMargin  StockTurnover  SalesToPurchaseRatio  
+0   1290667.91     25.297693       0.979108              1.338647  
+1   1015032.27     21.062810       0.976890              1.266830  
+2   1119816.92     24.675786       0.998575              1.327594  
+3   1214774.94     27.139908       0.993703              1.372493  
+4   1199901.61     28.412764       0.983556              1.396897  
+2025-08-13 17:58:32,763-INFO-Ingesting data.....
+2025-08-13 17:58:32,868-INFO-Completed
